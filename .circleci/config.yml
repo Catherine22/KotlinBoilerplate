@@ -31,6 +31,11 @@ jobs:
           path: app/build/test-results
       # See https://circleci.com/docs/2.0/deployment-integrations/ for deploy examples
       - run:
+          name: Run local unit tests and instrumented tests
+          command: |
+            ./gradlew test
+            ./gradlew cAT
+      - run:
           name: Build debug APK and release APK
           command: |
             ./gradlew :app:assembleDebug
