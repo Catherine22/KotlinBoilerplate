@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.drawee.view.SimpleDraweeView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/sdv_album_cover"
+    android:layout_width="@dimen/icon_size"
+    android:layout_height="@dimen/icon_size"
+    app:fadeDuration="300"
+    app:failureImage="@drawable/ic_broken_image_black_24dp"
+    app:placeholderImage="@android:color/darker_gray" />

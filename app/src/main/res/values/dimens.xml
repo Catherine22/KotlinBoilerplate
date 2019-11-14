@@ -1,0 +1,13 @@
+<resources>
+    <dimen name="appbar_padding">16dp</dimen>
+
+    <dimen name="dashboard_text_margin">16dp</dimen>
+    <!--items of RecyclerView-->
+    <dimen name="item_h">64dp</dimen>
+    <dimen name="icon_size">48dp</dimen>
+    <dimen name="margin">8dp</dimen>
+    <dimen name="rounded_icon_radius">3dp</dimen>
+
+    <dimen name="rounded_card_radius">5dp</dimen>
+    <dimen name="card_elevation">2dp</dimen>
+</resources>

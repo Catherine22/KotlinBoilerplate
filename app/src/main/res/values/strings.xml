@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Kotlin Boilerplate</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="dashboard_albums">Albums: %d</string>
+    <string name="dashboard_artists">Artist: %d</string>
+    <string name="dashboard_posts">Posts: %d</string>
+
+    <string-array name="main_features">
+        <item>Observer Patten</item>
+        <item>Architecture Boilerplate</item>
+    </string-array>
+
+
+    <string-array name="boilerplate_tabs">
+        <item>Album List</item>
+        <item>Thumbnails</item>
+        <item>Post Wall</item>
+    </string-array>
+</resources>
